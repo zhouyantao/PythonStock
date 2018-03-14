@@ -1,0 +1,2 @@
+# PythonStock
+使用python的tushare库编写的股票相关的应用
