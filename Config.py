@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 #coding:utf8
 #设置为自己的redis
-REDIS_HOST='172.104.190.145'
+REDIS_HOST=''
 REDIS_PORT='6379'
 REDIS_PASSWD=''
 KEY_HOLD_STOCK='stock:hold'

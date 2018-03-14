@@ -13,4 +13,4 @@ def sendMessage(phone,content):
 
 
 if __name__=="__main__" :
-	sendMessage('18983672735','人生苦短，我用python!')
+	sendMessage('123456','人生苦短，我用python!')
