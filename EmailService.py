@@ -15,7 +15,7 @@ HOST="smtp.qq.com"            #使用的邮箱的smtp服务器地址，这里是
 SENDER=""                           #用户名
 PASSWORD=""                             #密码
 POSTFIX="qq.com"                     #邮箱的后缀，网易就是163.com
-RECIPS=["guiyin@chinaexpressair.com"]   #这里接收人也设置为自己
+RECIPS=["123456@qq.com"]   #这里接收人也设置为自己
 # 一个包含文本和html的多部分邮件。多部分消息通常包含纯文本和html格式，客户端自行选择显示哪个。（web客户端显示html，命令行客户端显示纯文本）
 def make_mpa_msg(content):
     myemail = MIMEMultipart('alternative')
