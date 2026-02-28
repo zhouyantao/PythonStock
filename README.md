@@ -1,7 +1,15 @@
 # PythonStock
 ===============
 >使用python的tushare库编写的股票相关的应用,存储使用redis,策略结果和监控结果
-通过邮件进行发送,需邮件服务方提供相应的smtp服务器地址及密码(非登录密码，腾讯的为imop授权码) 使用前请先修改Config.py和EmailService中的相关的配置，各个文件作用如下：
+通过邮件进行发送,需邮件服务方提供相应的smtp服务器地址及密码(非登录密码，腾讯的为imop授权码) 使用前请先修改Config.py和EmailService中的相关的配置
+
+# 打赏和感谢
+## 发个小红包表达下心意
+ ![微信](https://static.riceyun.com/blog/pay-wechat.jpg "微信红包")
+ 
+ ![支付宝](https://static.riceyun.com/blog/pay-alipay.jpg "支付宝红包")
+ 
+# 各个文件作用如下：
 ## Config.py
 >配置文件，控制redis访问配置，及各个Redis中的set的key（如：持有的股票，新股开板监控股票）
 ## DateTimeUtils.py
